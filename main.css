@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#content {
+    min-height: 100%;
+}
+
+#main {
+    padding: 15px;
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: seagreen;
+}
+
+footer {
+    height: 100px;
+    background: steelblue;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
